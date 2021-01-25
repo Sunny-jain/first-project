@@ -72,3 +72,28 @@ body{
     position: absolute;
     bottom: 0px;
 }
+
+.modal-header{
+    background-color: #512da2;
+    color: floralwhite;
+}
+
+#dis2{
+    color: #D1C4E9;
+}
+
+#dis2:hover{
+    color: floralwhite;
+}
+
+.modal-body{
+    background-color: #D1C4E9;
+}
+
+#dis{
+    color: #D1C4E9;
+}
+
+#dis:hover{
+    color: floralwhite;
+}

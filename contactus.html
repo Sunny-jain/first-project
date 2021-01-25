@@ -31,9 +31,9 @@
                     <li class="nav-item active"><a class="nav-link" href="contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
                 <span class="navbar-text">
-                        <a data-toggle="modal" data-target="#loginModal">
-                        <span class="fa fa-sign-in fa-lg"></span> Login</a>
-                </span>
+                    <a id="loginbutton" role="button">
+                    <span class="fa fa-sign-in fa-lg"></span> Login</a>
+            </span>
             </div>
         </div>
     </nav>
@@ -42,7 +42,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title">Login </h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <button type="button" class="close" id="dis2">&times;</button>
                 </div>
                 <div class="modal-body">
                     <form>
@@ -83,7 +83,7 @@
                     <img src="img/logo.png" class="img-fluid">
                 </div>
                 <div class="col-12 col-sm-3 align-self-center">
-                    <button type="button" class="btn btn-block bg-warning" data-toggle="modal" data-target="#reserve">Reserve Table</button>
+                    <button type="button" class="btn btn-block bg-warning" id="reservebutton">Reserve Table</button>
                 </div>
             </div>
         </div>
@@ -93,7 +93,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h2 class="modal-title">Reserve a Table</h2>
-                    <button class="close" type="button" data-dismiss="modal">&times;</button>
+                    <button class="close" type="button" id="dis">&times;</button>
                 </div>
                 <div class="modal-body">
                     <form>
@@ -305,6 +305,8 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
